@@ -18,24 +18,24 @@ body {
 .btn {
   outline: none;
   border: none;
-  background-color: wheat;
+  background-color: wheat; /* Sets the background color of the button to wheat */
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 1px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; /* Adds a transition effect to the button */
 }
 
 select {
   appearance: none;
   outline: black;
-  background-color: wheat;
+  background-color: wheat; /* Sets the background color of the select element to wheat */
   padding: 0.5rem;
-  font-weight: bold;
+  font-weight: bold; /* Sets the font weight of the select element to bold */
   border: none;
-  border-radius: 2rem;
+  border-radius: 2rem; /* Adds a border radius of 2rem to the select element */
   margin-right: 0.3rem;
   cursor: pointer;
-  color: #0E141B;
+  color: #0E141B; /* Sets the text color of the select element to a specific shade of dark gray */
   border-color: black;
 }
 
@@ -49,7 +49,7 @@ select {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #ffffff; /* Sets the background color of the main container to white */
 }
 
 .clock-container {
@@ -59,7 +59,7 @@ select {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to right top, #06beb6, #48b1bf);
+  background-image: linear-gradient(to right top, #06beb6, #48b1bf); /* Applies a linear gradient background to the clock container */
 }
 
 /* Hover effect for the clock container */
@@ -68,11 +68,11 @@ select {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  box-shadow: 0 0 0 3px #000000;
+  box-shadow: 0 0 0 3px #000000; /* Adds a box shadow to the clock container on hover */
 }
 
 .current-time {
-  font-size: 2rem;
+  font-size: 2rem; /* Sets the font size of the current time to 2rem */
   color: black;
 }
 
@@ -83,9 +83,9 @@ select {
 
 .submit-button {
   border-color: black;
-  border: 10px;
-  border-radius: 2rem;
-  font-weight: bold;
+  border: 10px; /* Sets the border size of the submit button to 10px */
+  border-radius: 2rem; /* Adds a border radius of 2rem to the submit button */
+  font-weight: bold; /* Sets the font weight of the submit button to bold */
 }
 
 .set-alarm-container {
@@ -99,38 +99,38 @@ select {
 }
 
 .alarm {
-  justify-content: space-between;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  align-items: center;
+  justify-content: space-between; /* Aligns items in the alarm element with space between them */
+  border-radius: 30px; /* Adds a border radius of 30px to the alarm element */
+  padding: 0.5rem 1rem; /* Adds padding of 0.5rem at the top and bottom, and 1rem at the left and right of the alarm element */
+  align-items: center; /* Aligns items vertically centered within the alarm element */
 }
 
 .alarm .delete-alarm {
-  border-radius: 2rem;
-  background-color: rgba(230, 13, 13, 0.918);
-  font-weight: bold;
-  color: wheat;
-  font-size: xx-medium;
+  border-radius: 2rem; /* Adds a border radius of 2rem to the delete-alarm element */
+  background-color: rgba(230, 13, 13, 0.918); /* Sets the background color of the delete-alarm element to a red shade with opacity */
+  font-weight: bold; /* Sets the font weight of the delete-alarm element to bold */
+  color: wheat; /* Sets the text color of the delete-alarm element to wheat */
+  font-size: xx-medium; /* Sets the font size of the delete-alarm element to xx-medium */
 }
 
 .time {
-  color: #0E141B;
-  font-size: 1rem;
-  font-weight: bold;
+  color: #0E141B; /* Sets the text color of the time element to a specific shade of dark gray */
+  font-size: 1rem; /* Sets the font size of the time element to 1rem */
+  font-weight: bold; /* Sets the font weight of the time element to bold */
 }
 
 /* Hover and focus effect for buttons */
 .btn:focus,
 .btn:hover {
-  box-shadow: red 2px 2px 2px 1px inset, #fff -2px -2px 10px 1px inset;
+  box-shadow: red 2px 2px 2px 1px inset, #fff -2px -2px 10px 1px inset; /* Adds a box shadow to buttons on focus and hover, creating a 3D effect */
 }
 
 .page-title {
-  margin-top: 20px;
-  background-color: #000000;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
+  margin-top: 20px; /* Adds a top margin of 20px to the page-title element */
+  background-color: #000000; /* Sets the background color of the page-title element to black */
+  align-items: center; /* Aligns items in the page-title element vertically centered */
+  text-align: center; /* Centers the text in the page-title element */
+  color: #ffffff; /* Sets the text color of the page-title element to white */
 }
 
 /* Styles for devices with screen size less than 768px */
@@ -143,8 +143,8 @@ select {
   /* Adjusting styles for clock container */
   .clock-container {
     justify-content: center;
-    border-radius: 50px;
-    width: 450px;
+    border-radius: 50px; /* Adds a border radius of 50px to the clock container */
+    width: 450px; /* Sets the width of the clock container to 450px */
     min-height: auto;
   }
 }
