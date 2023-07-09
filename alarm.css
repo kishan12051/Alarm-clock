@@ -59,16 +59,7 @@ select {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to right top, #06beb6, #48b1bf); /* Applies a linear gradient background to the clock container */
-}
-
-/* Hover effect for the clock container */
-.clock-container:hover {
-  transition: 1s ease;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  box-shadow: 0 0 0 3px #000000; /* Adds a box shadow to the clock container on hover */
+  background-image: linear-gradient(to right top,#4f5656, #bd76e5); /* Applies a linear gradient background to the clock container */
 }
 
 .current-time {
@@ -127,10 +118,10 @@ select {
 
 .page-title {
   margin-top: 20px; /* Adds a top margin of 20px to the page-title element */
-  background-color: #000000; /* Sets the background color of the page-title element to black */
+  background-color: #ffffff; /* Sets the background color of the page-title element to black */
   align-items: center; /* Aligns items in the page-title element vertically centered */
   text-align: center; /* Centers the text in the page-title element */
-  color: #ffffff; /* Sets the text color of the page-title element to white */
+  color: #2a0000; /* Sets the text color of the page-title element to white */
 }
 
 /* Styles for devices with screen size less than 768px */
